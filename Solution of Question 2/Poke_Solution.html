@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Pokemon Problem Solution</title>
+	<script type="text/javascript" src="pokedex.json"></script>
+	<script type="text/javascript" src="name.js"></script>
+	<script type="text/javascript">
+	var question = window.prompt("Enter Your Choice\n 1). Find information about any pokemon\n 2). To Find which pokemon will evolve in particular pokemon\n 3). Find pokemons based on their Weakness\n Please Choose either 1 or 2 or 3 on the basis of your choice...")
+	switch(question)
+	{
+		case "1": var pokename1 = window.prompt("Enter the Name of any Pokemon")
+		find_info_ques2_prob1(pokename1)
+		break
+		case "2": var pokename2 = window.prompt("Enter the Name of any Pokemon")
+		find_nextEvolution_ques2_prob2(pokename2)
+		break
+		case "3": var weakness = window.prompt("Enter any weakness")
+		pokemonWeakness_ques2_prob3(weakness)
+		break
+		default: alert("Sorry! But you have selected some wrong choice. Choose Either 1 or 2 or 3.")
+	}
+	/*
+		Problem that I faced during writing this.
+		1) Accessing Elements of Array within Array
+		2) Using indexOf without considering any letter case... Please refer solution of 3rd problem of 2nd question. how to show same results for "Fire", "fire", "FirE". Like this. Although I used some other approach to sove this problem but what can be the alternative
+	*/
+	</script>
+</head>
+<body>
+	<h1>First Assignment on Javascript</h1>
+</body>
+</html>
+

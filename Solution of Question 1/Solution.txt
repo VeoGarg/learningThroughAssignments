@@ -1,0 +1,7 @@
+An Ecommerce can contain a json data like this:
+
+Product_name, Product_ID, Dimensions, Categories, Price, Features, Description, Product_Images, Manufacturer, Seller
+
+
+Sorry, I couldn't sort out this problem. Moreover how to create it was a real problem
+
